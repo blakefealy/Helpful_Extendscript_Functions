@@ -9,10 +9,10 @@ function writeAllArray (array, specString) {
         $.writeln("GIVEN ARRAY HAS " + array.length + " ITEMS")
      for(var a = 0; a < array.length; a++){
         $.writeln("at position " + a + " of array is " + array[a][specString]);
-        $.writeln("----  END OF ARRAY ITEMS  ----");
     }} else {
         $.writeln("no or one item(s) found in array");
     }
+    $.writeln("----  END OF ARRAY ITEMS  ----");
 }
 
 
