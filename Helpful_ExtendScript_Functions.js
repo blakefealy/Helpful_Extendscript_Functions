@@ -36,6 +36,7 @@ function traverseAllItems (item, array) {
 }
 
 ////////////////// FUNCTION 3: CHECK FILE(S) EXTENSIONS /////////////////////////
+
 /*  CheckFileExtension Information:
     pass a clip through this function and the desired extension and
     it will return a true or false depending on if the clip's extension matches the desired extension.
